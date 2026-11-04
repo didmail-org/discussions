@@ -1,0 +1,24 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share a demo, experiment or guide. 中文或 English 均可。
+        State what was actually verified and sanitize screenshots, logs and example data.
+  - type: textarea
+    id: project
+    attributes:
+      label: What you built or learned / 实践分享
+      description: Explain its purpose and how it relates to DIDMail.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Demo and verification / 演示与验证
+      description: Add public links or sanitized examples, versions, tested environment and known limits.
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback wanted / 希望获得的反馈

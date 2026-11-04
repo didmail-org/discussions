@@ -1,0 +1,18 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Maintainer updates for the DIDMail community.
+        Distinguish released behavior, verified experiments and future plans.
+  - type: textarea
+    id: update
+    attributes:
+      label: Update / 更新内容
+      description: Explain what changed and who is affected.
+    validations:
+      required: true
+  - type: textarea
+    id: action
+    attributes:
+      label: Action and references / 后续操作与参考
+      description: Include relevant versions, release or documentation links, required actions and limitations.

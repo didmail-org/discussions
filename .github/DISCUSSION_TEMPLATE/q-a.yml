@@ -1,0 +1,37 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask one focused question. 中文或 English 均可。Search existing discussions first.
+        Never include wallet secrets, real mail or unredacted logs. Report vulnerabilities privately using SECURITY.md.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question / 问题
+      description: What are you trying to achieve, and what do you need help with?
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Area / 相关组件
+      options:
+        - Protocol / SDK
+        - Server / ARC / Cloudflare
+        - Browser extension
+        - React Native mobile client
+        - Flutter client
+        - Website / documentation
+        - Cross-project / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Versions and environment / 版本与环境
+      description: Include relevant app, ARC, SDK and platform versions. Distinguish local preview from hosted runtime.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: What you tried / 已尝试的方法
+      description: Give expected/actual behavior, a minimal sanitized reproduction and relevant public links.

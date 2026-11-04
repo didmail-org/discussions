@@ -1,0 +1,18 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to DIDMail. 中文或 English 均可。
+        Use Q&A for help, Ideas for proposals, and Show and tell for demos.
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic / 讨论内容
+      description: Introduce yourself or start a conversation relevant to DIDMail.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / 补充背景
+      description: Add useful public links or explain what kind of input would help.
